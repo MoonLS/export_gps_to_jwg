@@ -12,3 +12,4 @@ do
 	then
 		exec exiftool ""$nom".JPG" | grep GPS > ""$nom".JWG"
 	fi
+done
